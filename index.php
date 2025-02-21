@@ -32,7 +32,7 @@
             <?php
             if(isset($_POST['getTemp'])){
                 $city = $_POST['city'];
-                $api_key = '37cf377702ca8ad9bf2720780242aaa2';
+                $api_key = 'yourApiKey';
                 $url = "https://api.openweathermap.org/data/2.5/weather?q=$city,MA&appid=$api_key&units=metric";
 
                 $request = curl_init();
